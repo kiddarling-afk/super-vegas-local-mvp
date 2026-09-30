@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090d1b" />
+  <title>Bowling Network — Super Vegas Local MVP</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand" aria-label="Bowling Network provisional platform"><span class="brand-mark">BN</span><span><strong id="brandName">Bowling Network</strong><small id="brandSubhead">PROVISIONAL PLATFORM · LOCAL MVP</small></span></div>
+      <div class="topbar-actions">
+        <label class="sr-only" for="companySelect">Company</label><select id="companySelect" class="select-control" aria-label="Switch company"></select>
+        <label class="sr-only" for="centerSelect">Center workspace</label><select id="centerSelect" class="select-control" aria-label="Switch center workspace"></select>
+        <label class="sr-only" for="leagueSelect">League workspace</label><select id="leagueSelect" class="select-control" aria-label="Switch league workspace"></select>
+        <label class="sr-only" for="seasonSelect">Season workspace</label><select id="seasonSelect" class="select-control" aria-label="Switch season workspace"></select>
+        <label class="sr-only" for="roleSelect">Demo role</label><select id="roleSelect" class="select-control" aria-label="Switch demo role"></select>
+      </div>
+    </header>
+    <aside class="sidebar" aria-label="Primary navigation"><div class="identity-card" id="identityCard"></div><nav id="mainNav" class="main-nav"></nav><div class="demo-note"><strong>Confirmed-data local MVP</strong><span>Changes save in this browser only.</span><button id="resetDemo" class="text-button">Reset v2 demo data</button></div></aside>
+    <main id="app" class="content" tabindex="-1"></main>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation"></nav>
+  </div>
+  <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script src="app.js"></script>
+</body>
+</html>
